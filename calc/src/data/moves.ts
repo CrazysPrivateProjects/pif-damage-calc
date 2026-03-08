@@ -6566,6 +6566,15 @@ Mudslide: {
   zp: 100,
   maxPower: 110,
 },
+'Salchow Jump': {
+  bp: 85,
+  type: 'Dark',
+  category: 'Physical',
+  zp: 100,
+  maxPower: 100,
+  makesContact: true,
+  secondaries: true,
+},
 };
 
 const SV: {[name: string]: MoveData} = extend(true, {}, SS, SV_PATCH);

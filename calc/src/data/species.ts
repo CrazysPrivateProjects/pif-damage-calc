@@ -14316,6 +14316,13 @@ weightkg: 130,
 abilities: {0: 'Harvest'},
 origin: 'Infinity'
 },
+'Ludicolo-Egho-Mega':{
+types: ['Fire', 'Steel'],
+bs: {hp:85, at:100, df:95, sa:100, sd:95, sp:105}, 
+weightkg: 155.5,
+abilities: {0: 'Wok Hei'},
+origin: 'Infinity'
+},
 'Sunflorid':{
 types: ['Grass', 'Fire'],
 bs: {hp:110, at:90, df:75, sa:115, sd:80, sp:65}, 
@@ -15335,6 +15342,69 @@ types: ['Flying', 'Electric'],
 bs: {hp:75, at:115, df:110, sa:80, sd:120, sp:130}, 
 weightkg: 70,
 abilities: {0: 'Friend Guard'},
+origin: 'Infinity'
+},
+'Onix-Brock':{
+types: ['Rock', 'Ground'],
+bs: {hp:75, at:135, df:135, sa:20, sd:70, sp:85}, 
+weightkg: 235,
+abilities: {0: 'Sheer Force'},
+origin: 'Infinity'
+},
+'Onix-Crystal':{
+types: ['Rock'],
+bs: {hp:75, at:125, df:140, sa:30, sd:90, sp:90}, 
+weightkg: 235,
+abilities: {0: 'Crystalline'},
+origin: 'Infinity'
+},
+'Psyduck-Misty':{
+types: ['Water', 'Psychic'],
+bs: {hp:65, at:80, df:70, sa:144, sd:129, sp:50}, 
+weightkg: 19.6,
+abilities: {0: 'Migraine'},
+origin: 'Infinity'
+},
+'Pikachu-Ash':{
+types: ['Electric'],
+bs: {hp:101, at:80, df:51, sa:72, sd:61, sp:115}, 
+weightkg: 6,
+abilities: {0: 'Supercharged'},
+origin: 'Infinity'
+},
+'Raticate-Blue':{
+types: ['Ghost', 'Normal'],
+bs: {hp:55, at:138, df:60, sa:97, sd:94, sp:111}, 
+weightkg: 5.1,
+abilities: {0: 'Restless Spirit'},
+origin: 'Infinity'
+},
+'Zoroark-N':{
+types: ['Dark', 'Normal'],
+bs: {hp:103, at:129, df:70, sa:87, sd:62, sp:119}, 
+weightkg: 81.1,
+abilities: {0: 'Illusionist'},
+origin: 'Infinity'
+},
+'MissingNo.-Mega':{
+types: ['???'],
+bs: {hp:111, at:110, df:110, sa:101, sd:101, sp:100}, 
+weightkg: 1590.8,
+abilities: {0: 'Glitch Out'},
+origin: 'Infinity'
+},
+'Arbok-Jessie':{
+types: ['Poison', 'Ground'],
+bs: {hp:79, at:115, df:86, sa:65, sd:89, sp:101}, 
+weightkg: 65,
+abilities: {0: 'Grand Entrance'},
+origin: 'Infinity'
+},
+'Weezing-James':{
+types: ['Poison', 'Flying'],
+bs: {hp:89, at:65, df:115, sa:101, sd:79, sp:86}, 
+weightkg: 9.5,
+abilities: {0: 'Simply Evil'},
 origin: 'Infinity'
 },
 
@@ -17149,6 +17219,22 @@ weightkg: 70,
 abilities: {0: 'Poison Point'},
 origin: 'Pokeathlon'
 },
+'Wallapillar':{
+types: ['Bug', 'Normal'],
+bs: {hp:44, at:61, df:72, sa:33, sd:52, sp:38}, 
+weightkg: 22.2,
+abilities: {0: 'Swarm'},
+nfe: true,
+origin: 'Pokeathlon'
+},
+'Bulwarva':{
+types: ['Bug', 'Normal'],
+bs: {hp:62, at:73, df:101, sa:53, sd:92, sp:19}, 
+weightkg: 94.3,
+abilities: {0: 'Adaptive Armor'},
+nfe: true,
+origin: 'Pokeathlon'
+},
 'Poltank':{
 types: ['Bug', 'Normal'],
 bs: {hp:93, at:83, df:122, sa:62, sd:104, sp:61}, 
@@ -17323,7 +17409,7 @@ origin: 'Pokeathlon'
 },
 'Snowiibay':{
 types: ['Flying', 'Ghost'],
-bs: {hp:115, at:68, df:78, sa:95, sd:90, sp:85}, 
+bs: {hp:115, at:57, df:78, sa:95, sd:90, sp:85}, 
 weightkg: 26,
 abilities: {0: 'Thick Fat'},
 origin: 'Pokeathlon'
@@ -17518,6 +17604,14 @@ weightkg: 32.8,
 abilities: {0: 'Synchronize'},
 origin: 'Pokeathlon'
 },
+'Fermiworm':{
+types: ['Psychic', 'Ground'],
+bs: {hp:53, at:23, df:82, sa:100, sd:62, sp:30}, 
+weightkg: 333.3,
+abilities: {0: 'Wonder Skin'},
+nfe: true,
+origin: 'Pokeathlon'
+},
 'Anneliark':{
 types: ['Psychic', 'Ground'],
 bs: {hp:84, at:83, df:124, sa:130, sd:85, sp:44}, 
@@ -17623,7 +17717,7 @@ origin: 'Pokeathlon'
 },
 'Whacksteroid':{
 types: ['Electric', 'Fighting'],
-bs: {hp:75, at:110, df:105, sa:65, sd:85, sp:75}, 
+bs: {hp:75, at:110, df:105, sa:65, sd:85, sp:85}, 
 weightkg: 257,
 abilities: {0: 'Static'},
 origin: 'Pokeathlon'
@@ -17723,6 +17817,14 @@ weightkg: 93,
 abilities: {0: 'Shell Armor'},
 origin: 'Pokeathlon'
 },
+'Pixsilt':{
+types: ['Rock', 'Electric'],
+bs: {hp:40, at:90, df:45, sa:70, sd:40, sp:65}, 
+weightkg: 18,
+abilities: {0: 'Sturdy'},
+nfe: true,
+origin: 'Pokeathlon'
+},
 'Silretro':{
 types: ['Rock', 'Electric'],
 bs: {hp:55, at:115, df:60, sa:100, sd:50, sp:115}, 
@@ -17764,8 +17866,8 @@ types: ['Fairy', 'Normal'],
 bs: {hp:57, at:75, df:64, sa:53, sd:63, sp:43}, 
 weightkg: 36,
 abilities: {0: 'Guts'},
-origin: 'Pokeathlon',
 nfe: true,
+origin: 'Pokeathlon'
 },
 'Jawladin':{
 types: ['Fairy', 'Normal'],
@@ -17786,6 +17888,27 @@ types: ['Psychic', 'Poison'],
 bs: {hp:103, at:87, df:63, sa:117, sd:110, sp:37}, 
 weightkg: 113,
 abilities: {0: 'Cute Charm'},
+origin: 'Pokeathlon'
+},
+'Keepurr':{
+types: ['Ghost', 'Normal'],
+bs: {hp:113, at:124, df:80, sa:57, sd:70, sp:87}, 
+weightkg: 17.6,
+abilities: {0: 'Frisk'},
+origin: 'Pokeathlon'
+},
+'Verdicent':{
+types: ['Ice', 'Dark'],
+bs: {hp:70, at:109, df:58, sa:97, sd:62, sp:113}, 
+weightkg: 23.5,
+abilities: {0: 'Dancer'},
+origin: 'Pokeathlon'
+},
+'Martiantis':{
+types: ['Bug', 'Fighting'],
+bs: {hp:91, at:116, df:119, sa:64, sd:65, sp:70}, 
+weightkg: 95.7,
+abilities: {0: 'Mold Breaker'},
 origin: 'Pokeathlon'
 },
 };
