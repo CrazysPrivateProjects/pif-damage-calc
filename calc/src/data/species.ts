@@ -17424,7 +17424,7 @@ origin: 'Pokeathlon'
 },
 'Snugglosis':{
 types: ['Dark', 'Ground'],
-bs: {hp:85, at:110, df:75, sa:85, sd:125, sp:30}, 
+bs: {hp:85, at:110, df:75, sa:65, sd:125, sp:30}, 
 weightkg: 20.4,
 abilities: {0: 'Wind Rider'},
 origin: 'Pokeathlon'
@@ -17849,7 +17849,7 @@ origin: 'Pokeathlon'
 },
 'Arcaspark':{
 types: ['Water', 'Electric'],
-bs: {hp:100, at:95, df:72, sa:87, sd:86, sp:55}, 
+bs: {hp:105, at:95, df:72, sa:87, sd:86, sp:50}, 
 weightkg: 38.6,
 abilities: {0: 'Volt Absorb'},
 origin: 'Pokeathlon'
@@ -17909,6 +17909,127 @@ types: ['Bug', 'Fighting'],
 bs: {hp:91, at:116, df:119, sa:64, sd:65, sp:70}, 
 weightkg: 95.7,
 abilities: {0: 'Mold Breaker'},
+origin: 'Pokeathlon'
+},
+'Tenkibo':{
+types: ['Normal'],
+bs: {hp:70, at:50, df:75, sa:80, sd:100, sp:80}, 
+weightkg: 24.7,
+abilities: {0: 'Natural Cure'},
+origin: 'Pokeathlon'
+},
+'Tenkibo-Magical-Hero':{
+types: ['Normal', 'Fairy'],
+bs: {hp:70, at:85, df:85, sa:125, sd:110, sp:125}, 
+weightkg: 35.2,
+abilities: {0: 'Natural Cure'},
+origin: 'Pokeathlon'
+},
+'Lunura':{
+types: ['Fairy', 'Flying'],
+bs: {hp:84, at:58, df:90, sa:99, sd:72, sp:92}, 
+weightkg: 5.74,
+abilities: {0: 'Sticky Hold'},
+origin: 'Pokeathlon'
+},
+'Funglow':{
+types: ['Grass', 'Electric'],
+bs: {hp:80, at:68, df:90, sa:99, sd:122, sp:36}, 
+weightkg: 40,
+abilities: {0: 'Illuminate'},
+origin: 'Pokeathlon'
+},
+'Slithereina':{
+types: ['Dark', 'Poison'],
+bs: {hp:60, at:79, df:135, sa:48, sd:97, sp:57}, 
+weightkg: 78,
+abilities: {0: 'Shed Skin'},
+origin: 'Pokeathlon'
+},
+'Regasunde':{
+types: ['Grass', 'Bug'],
+bs: {hp:80, at:80, df:97, sa:90, sd:72, sp:116}, 
+weightkg: 60,
+abilities: {0: 'Overgrow'},
+origin: 'Pokeathlon'
+},
+'Ignimask':{
+types: ['Fire'],
+bs: {hp:21, at:42, df:35, sa:66, sd:57, sp:77}, 
+weightkg: 8,
+abilities: {0: 'Blaze'},
+nfe: true,
+origin: 'Pokeathlon'
+},
+'Scavember':{
+types: ['Fire'],
+bs: {hp:44, at:49, df:51, sa:86, sd:69, sp:106}, 
+weightkg: 30,
+abilities: {0: 'Blaze'},
+nfe: true,
+origin: 'Pokeathlon'
+},
+'Causticoon':{
+types: ['Fire', 'Flying'],
+bs: {hp:78, at:74, df:66, sa:98, sd:81, sp:133}, 
+weightkg: 55,
+abilities: {0: 'Blaze'},
+origin: 'Pokeathlon'
+},
+'Regalunith':{
+types: ['Ice', 'Rock'],
+bs: {hp:75, at:76, df:70, sa:110, sd:85, sp:112}, 
+weightkg: 272.15,
+abilities: {0: 'Technician'},
+origin: 'Pokeathlon'
+},
+'Galathea':{
+types: ['Poison', 'Ground'],
+bs: {hp:81, at:61, df:69, sa:112, sd:131, sp:96}, 
+weightkg: 62.1,
+abilities: {0: 'Pressure'},
+origin: 'Pokeathlon'
+},
+'Sthencio':{
+types: ['Fighting', 'Dragon'],
+bs: {hp:118, at:101, df:69, sa:55, sd:79, sp:96}, 
+weightkg: 92.3,
+abilities: {0: 'Shed Skin'},
+origin: 'Pokeathlon'
+},
+'Patabyte':{
+types: ['Electric', 'Flying'],
+bs: {hp:91, at:61, df:78, sa:99, sd:78, sp:123}, 
+weightkg: 22.2,
+abilities: {0: 'Trace'},
+origin: 'Pokeathlon'
+},
+'Condorfeit':{
+types: ['Dark', 'Steel'],
+bs: {hp:79, at:87, df:114, sa:95, sd:74, sp:79}, 
+weightkg: 81.64,
+abilities: {0: 'Levitate'},
+origin: 'Pokeathlon'
+},
+'Eversheen':{
+types: ['Ice', 'Grass'],
+bs: {hp:100, at:71, df:130, sa:111, sd:66, sp:35}, 
+weightkg: 283.6,
+abilities: {0: 'Natural Anomaly'},
+origin: 'Pokeathlon'
+},
+'Glaviathan':{
+types: ['Water', 'Rock'],
+bs: {hp:87, at:120, df:53, sa:97, sd:78, sp:100}, 
+weightkg: 283.6,
+abilities: {0: 'Clear Body'},
+origin: 'Pokeathlon'
+},
+'Tofagrif-Mega':{
+types: ['Grass', 'Flying'],
+bs: {hp:72, at:122, df:86, sa:60, sd:108, sp:137}, 
+weightkg: 44.9,
+abilities: {0: 'Sweet Collateral'},
 origin: 'Pokeathlon'
 },
 };
